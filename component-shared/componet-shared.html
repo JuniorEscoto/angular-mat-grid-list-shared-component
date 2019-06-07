@@ -1,0 +1,14 @@
+<mat-grid-list [cols]="column" [rowHeight]="rowHeight">
+  <mat-grid-tile  *ngFor="let item of items"
+   [colspan]="item.colspan"
+   [rowspan]="item.rowspan">{{item.value}}
+   <mat-grid-list cols="3" rowHeight="200">
+  <mat-grid-tile>1</mat-grid-tile>
+  <mat-grid-tile>2</mat-grid-tile>
+  <mat-grid-tile>3</mat-grid-tile>
+  <mat-grid-tile>4</mat-grid-tile>
+</mat-grid-list>
+  </mat-grid-tile>
+</mat-grid-list>
+
+
