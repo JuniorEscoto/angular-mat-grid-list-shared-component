@@ -1,7 +1,7 @@
 <mat-grid-list [cols]="column" [rowHeight]="rowHeight">
-  <mat-grid-tile  *ngFor="let item of items"
+  <mat-grid-tile  *ngFor="let item of items; index as i"
    [colspan]="item.colspan"
-   [rowspan]="item.rowspan">{{item.value}}
+   [rowspan]="item.rowspan">{{item.value}} = {{i}}
   </mat-grid-tile>
 </mat-grid-list>
 

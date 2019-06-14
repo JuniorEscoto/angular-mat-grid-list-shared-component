@@ -9,21 +9,17 @@ import {Component} from '@angular/core';
   templateUrl: 'grid-list-overview-example.html',
 })
 export class GridListOverviewExample {
-  public colValue = 2;
-  public rowValue = 100;
+  public col = 4;
+  public rowHeight = 100;
   public values =  [
-    {colspan: 1, rowspan: 1, value: 1},
-    {colspan: 1, rowspan: 1, value:2},
-    {colspan: 1, rowspan: 1, value:3},
-    {colspan: 1, rowspan: 1, value: 4}]
-
-     public items =  [
-    {colspan: 1, rowspan: 1, value: 1},
-    {colspan: 1, rowspan: 1, value:2},
-    {colspan: 1, rowspan: 1, value:3},
-    {colspan: 1, rowspan: 1, value: 4},
-    {colspan: 1, rowspan: 1, value: 4},
-    {colspan: 1, rowspan: 1, value: 4}]
+    {colspan: 1, rowspan: 1, value: 'a'},
+    {colspan: 1, rowspan: 1, value:'b'},
+    {colspan: 1, rowspan: 1, value: 'c'},
+    {colspan: 1, rowspan: 1, value: 'd'},
+    {colspan: 1, rowspan: 1, value: 'e'},
+    {colspan: 1, rowspan: 1, value:'f'},
+    {colspan: 1, rowspan: 1, value:'g'},
+    {colspan: 1, rowspan: 1, value: 'h'}]
 }
 
 
